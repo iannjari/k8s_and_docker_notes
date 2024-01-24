@@ -23,3 +23,5 @@ minikube -> ochestrates a kubernetes cluster on a single (mostly local machine),
 `kubectl delete deployment deployment_name`
 
 `kubectl apply -f filename` - use a manifest file to manage a cluster
+
+`minikube image load image_name` - load an image from local docker runtime into minikube
