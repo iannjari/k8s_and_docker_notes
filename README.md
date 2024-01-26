@@ -25,3 +25,5 @@ minikube -> ochestrates a kubernetes cluster on a single (mostly local machine),
 `kubectl apply -f filename` - use a manifest file to manage a cluster
 
 `minikube image load image_name` - load an image from local docker runtime into minikube
+
+`minikube service service_name`  assign an external IP to a service whose Ext IP status is `<pending>` (minikube does not assign an IP address to a service)
