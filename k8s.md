@@ -28,3 +28,8 @@ minikube -> ochestrates a kubernetes cluster on a single (mostly local machine),
 
 `minikube service service_name`  assign an external IP to a service whose Ext IP status is `<pending>` (minikube does not assign an IP address to a service)
 
+`kubectl api-resources --namespaced=true/false`
+
+## namespaces
+- Volumes and nodes are namespace-agnostic.
+- ConfigMaps, Secrets are not accessible from another namespace. (`kubectl api-resources --namespaced=true/false`)
